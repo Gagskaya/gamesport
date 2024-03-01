@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #383838;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+.header__tabs a {
+  color: #b8b8b8;
+  margin-right: 10px;
+}
+.header__info {
+  display: flex;
+}
+.header__info-order {
+  color: #ffd637;
+  border-bottom: 1px dashed #ffd637;
+}
+.header__info-socials {
+  margin: 0 20px;
+}
+.header__info-socials a {
+  margin-right: 15px;
+}
+.header__info-socials a:last-child {
+  margin-right: 0;
+}
+.header__info-contacts a {
+  color: #fff;
+  font-weight: 700;
+}
+.header__info-contacts-mail {
+  display: inline-block;
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
+.header__info-contacts-phone {
+  padding-left: 10px;
+}
+
+.nav {
+  margin-top: 30px;
+}
+.nav__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__header-logo {
+  display: flex;
+  align-items: center;
+}
+.nav__header-logo img:first-child {
+  margin-right: 15px;
+}
+.nav__header-search {
+  display: flex;
+  flex-basis: 42%;
+}
+.nav__header-search input {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+.nav__header-search-loupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffd637;
+}
+.nav__header-auth, .nav__header-cart {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+}
+.nav__header-auth img, .nav__header-cart img {
+  margin-right: 15px;
+}
+.nav__header-auth-btns, .nav__header-cart-btns {
+  display: flex;
+  flex-direction: column;
+}
+.nav__header-auth-btns span, .nav__header-cart-btns span {
+  font-size: 12px;
+  cursor: pointer;
+}
+.nav__header-auth-btns span:first-child, .nav__header-cart-btns span:first-child {
+  font-weight: 700;
+  margin-bottom: 2px;
+}/*# sourceMappingURL=index.css.map */
